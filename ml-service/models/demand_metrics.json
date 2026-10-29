@@ -1,0 +1,198 @@
+{
+  "wheat": {
+    "mae": 2.797802089694425,
+    "rmse": 3.530359179801853,
+    "mape": 5.323764059716559,
+    "by_horizon": {
+      "28": {
+        "mae": 2.77470097978926,
+        "rmse": 3.4975981852743714,
+        "mape": 5.5662738706728865,
+        "endpoint_mape": 4.630297893672719,
+        "n_origins": 17
+      },
+      "56": {
+        "mae": 2.797802089694425,
+        "rmse": 3.530359179801853,
+        "mape": 5.323764059716559,
+        "endpoint_mape": 5.5435337057533625,
+        "n_origins": 15
+      },
+      "91": {
+        "mae": 2.804593733304444,
+        "rmse": 3.5605238620125648,
+        "mape": 5.0758759457632,
+        "endpoint_mape": 4.906932717804869,
+        "n_origins": 12
+      },
+      "182": {
+        "mae": 2.812782792466855,
+        "rmse": 3.574321363477554,
+        "mape": 5.096344421434755,
+        "endpoint_mape": 11.021172503565731,
+        "n_origins": 6
+      }
+    },
+    "last_demand": 33.0,
+    "last_date": "2026-08-31",
+    "evaluation": {
+      "method": "rolling-origin multi-day backtest",
+      "holdout_days": 270,
+      "horizons": [
+        28,
+        56,
+        91,
+        182
+      ],
+      "headline_horizon_days": 56,
+      "format_version": 2
+    }
+  },
+  "paddy": {
+    "mae": 2.4313202737006794,
+    "rmse": 3.0563177458625645,
+    "mape": 7.258300434830721,
+    "by_horizon": {
+      "28": {
+        "mae": 2.4130597433872643,
+        "rmse": 3.0468317104650606,
+        "mape": 6.934022018247633,
+        "endpoint_mape": 6.815055095927653,
+        "n_origins": 17
+      },
+      "56": {
+        "mae": 2.4313202737006794,
+        "rmse": 3.0563177458625645,
+        "mape": 7.258300434830721,
+        "endpoint_mape": 10.755377101600267,
+        "n_origins": 15
+      },
+      "91": {
+        "mae": 2.4503302119854817,
+        "rmse": 3.0770613431967027,
+        "mape": 7.679219552648502,
+        "endpoint_mape": 7.078071096945462,
+        "n_origins": 12
+      },
+      "182": {
+        "mae": 2.4381594631117394,
+        "rmse": 3.062371498258387,
+        "mape": 7.638755061152894,
+        "endpoint_mape": 3.879257791855047,
+        "n_origins": 6
+      }
+    },
+    "last_demand": 52.15,
+    "last_date": "2026-08-31",
+    "evaluation": {
+      "method": "rolling-origin multi-day backtest",
+      "holdout_days": 270,
+      "horizons": [
+        28,
+        56,
+        91,
+        182
+      ],
+      "headline_horizon_days": 56,
+      "format_version": 2
+    }
+  },
+  "cotton": {
+    "mae": 2.4484936167827356,
+    "rmse": 3.0276939367175486,
+    "mape": 7.523596903094971,
+    "by_horizon": {
+      "28": {
+        "mae": 2.461426035489075,
+        "rmse": 3.035132472667369,
+        "mape": 7.231997112494269,
+        "endpoint_mape": 7.502032281428941,
+        "n_origins": 17
+      },
+      "56": {
+        "mae": 2.4484936167827356,
+        "rmse": 3.0276939367175486,
+        "mape": 7.523596903094971,
+        "endpoint_mape": 4.493555007812416,
+        "n_origins": 15
+      },
+      "91": {
+        "mae": 2.4767095193401314,
+        "rmse": 3.067642700099478,
+        "mape": 7.928703276755829,
+        "endpoint_mape": 9.439619155858608,
+        "n_origins": 12
+      },
+      "182": {
+        "mae": 2.4874998989322576,
+        "rmse": 3.082102864925605,
+        "mape": 7.948399057186012,
+        "endpoint_mape": 11.37958984489471,
+        "n_origins": 6
+      }
+    },
+    "last_demand": 47.25,
+    "last_date": "2026-08-31",
+    "evaluation": {
+      "method": "rolling-origin multi-day backtest",
+      "holdout_days": 270,
+      "horizons": [
+        28,
+        56,
+        91,
+        182
+      ],
+      "headline_horizon_days": 56,
+      "format_version": 2
+    }
+  },
+  "maize": {
+    "mae": 2.666209749794917,
+    "rmse": 3.4387455235950664,
+    "mape": 8.518084289341958,
+    "by_horizon": {
+      "28": {
+        "mae": 2.6555022354575026,
+        "rmse": 3.3944300742184,
+        "mape": 8.122155518258591,
+        "endpoint_mape": 10.205104338678495,
+        "n_origins": 17
+      },
+      "56": {
+        "mae": 2.666209749794917,
+        "rmse": 3.4387455235950664,
+        "mape": 8.518084289341958,
+        "endpoint_mape": 8.26993849855368,
+        "n_origins": 15
+      },
+      "91": {
+        "mae": 2.664592754960924,
+        "rmse": 3.456609739075163,
+        "mape": 9.001436838879401,
+        "endpoint_mape": 6.0910482775111054,
+        "n_origins": 12
+      },
+      "182": {
+        "mae": 2.6736087445118173,
+        "rmse": 3.465732784069849,
+        "mape": 9.019395456773978,
+        "endpoint_mape": 11.438026474718903,
+        "n_origins": 6
+      }
+    },
+    "last_demand": 51.925,
+    "last_date": "2026-08-31",
+    "evaluation": {
+      "method": "rolling-origin multi-day backtest",
+      "holdout_days": 270,
+      "horizons": [
+        28,
+        56,
+        91,
+        182
+      ],
+      "headline_horizon_days": 56,
+      "format_version": 2
+    }
+  }
+}
